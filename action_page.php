@@ -55,7 +55,7 @@ if ($result->num_rows > 0) {
         $userId = $conn->insert_id;
         
         // Send verification email
-        $verificationLink = "https://yoursite.com/verify.php?token=$verificationToken&email=$email";
+        $verificationLink = "https://aston-geh.github.io/Fynd/verify.php?token=$verificationToken&email=$email";
         
         $subject = "Verify your Fynd account";
         $message = "
